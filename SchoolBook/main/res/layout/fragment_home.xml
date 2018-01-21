@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.schoolbook.HomeFragment">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            >
+
+            <Button
+                android:id="@+id/nearbyhomebutton"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/pin"
+                android:paddingTop="20dp"
+                android:text="Nearby"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/allschoolsbutton"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/book"
+                android:paddingTop="20dp"
+                android:text="Schools" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+
+            <Button
+                android:id="@+id/byfeehomebutton"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/fee"
+                android:paddingTop="20dp"
+                android:text="By Fee" />
+
+            <Button
+                android:id="@+id/topschoolshomebutton"
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/star"
+                android:paddingTop="20dp"
+                android:text="Top Schools" />
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>
